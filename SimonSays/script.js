@@ -31,7 +31,7 @@ function showPattern() {
     let i = 0;
     const interval = setInterval(() => {
         if (i >= pattern.length) {
-            clearInterval(interval);
+            clearOpInterval(interval);
             playerPattern = [];
             return;
         }
