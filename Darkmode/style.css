@@ -1,0 +1,38 @@
+body {
+  color: black;
+  font-family: sans-serif;
+  height : 100vh;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  transition: background 0.3s, color 0.3s;
+}
+
+body.dark {
+  background: #121212;
+  color: white;
+}
+
+button {
+  background: #444;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #666;
+}
+
+body.dark button {
+  background: #ddd;
+  color: black;
+}
+
+body.dark button:hover {
+  background: #bbb;
+}
